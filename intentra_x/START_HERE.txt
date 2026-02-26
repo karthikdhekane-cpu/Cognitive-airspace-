@@ -1,0 +1,72 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║         INTENTRA-X for MacBook M4 Pro                     ║
+║         Quick Start Guide                                 ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+🚀 TO RUN THE SYSTEM:
+
+1. Open Terminal in this folder
+
+2. Run these commands:
+   
+   source venv/bin/activate
+   python run_m4.py
+
+3. Open browser to: http://localhost:8502
+
+4. In dashboard sidebar, select "Live" mode
+
+5. Press Ctrl+C in terminal to stop
+
+
+📚 DOCUMENTATION:
+
+- M4_PRO_SETUP.md  → Detailed setup guide
+- QUICKSTART.md    → General quick start
+- README.md        → Full documentation
+
+
+✨ WHAT YOU'LL SEE:
+
+✓ Real-time drone simulation (no AirSim needed)
+✓ Live trajectory visualization
+✓ Risk heatmap
+✓ Intent classification
+✓ State machine transitions
+✓ Counterfactual predictions
+
+
+🎯 CURRENT STATUS:
+
+Both processes are running:
+- Brain: Generating mock telemetry
+- Dashboard: http://localhost:8502
+
+Just open the URL in your browser!
+
+
+💡 TIPS:
+
+- Enable "Auto-refresh" in sidebar for live updates
+- Adjust refresh rate for performance
+- Watch the state transitions in real-time
+- Check risk scores and explanations
+
+
+🛠️ TROUBLESHOOTING:
+
+If dashboard shows "No Live Data":
+1. Make sure you selected "Live" mode (not "Demo")
+2. Enable auto-refresh toggle
+3. Check that live_output.json exists
+
+If port is busy:
+pkill -f streamlit
+python run_m4.py
+
+
+═══════════════════════════════════════════════════════════
+
+Ready to go! Open http://localhost:8502 now! 🎉

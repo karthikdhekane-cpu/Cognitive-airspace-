@@ -1,0 +1,15 @@
+# INTENTRA-X Requirements
+# Cognitive Airspace Intelligence System
+
+# Core dependencies
+numpy>=1.21.0
+torch>=2.0.0
+streamlit>=1.28.0
+plotly>=5.14.0
+pandas>=1.5.0
+
+# AirSim (simulation)
+airsim>=1.8.1
+
+# Additional utilities
+scipy>=1.9.0

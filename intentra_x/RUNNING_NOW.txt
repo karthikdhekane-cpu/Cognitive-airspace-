@@ -1,0 +1,84 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║              ✅ INTENTRA-X IS RUNNING NOW!                   ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+
+🎯 OPEN THIS URL IN YOUR BROWSER:
+
+    👉  http://localhost:8502  👈
+
+
+📋 WHAT TO DO IN THE DASHBOARD:
+
+    1. Look at the LEFT SIDEBAR
+    2. Find "Mode" dropdown
+    3. Select "Live" (not Demo)
+    4. Toggle "Auto-refresh" to ON
+    5. Watch the magic happen! ✨
+
+
+🚁 WHAT YOU'LL SEE:
+
+    ✓ Drone flying in real-time
+    ✓ Trajectory path on map
+    ✓ Risk heatmap (red = danger)
+    ✓ Intent classification (TRANSIT/SURVEILLANCE/ADAPTIVE)
+    ✓ Altitude & speed gauges
+    ✓ Risk score meter
+    ✓ State transitions
+    ✓ Counterfactual predictions
+
+
+🧠 WHAT'S HAPPENING BEHIND THE SCENES:
+
+    Brain Process (main_brain.py):
+    ├─ Mock AirSim simulation
+    ├─ Generating telemetry every 0.5 seconds
+    ├─ LSTM classifying intent
+    ├─ Risk engine calculating danger
+    ├─ State machine switching behaviors
+    └─ Writing to live_output.json
+
+    Dashboard Process (dashboard.py):
+    ├─ Reading live_output.json
+    ├─ Rendering visualizations
+    ├─ Updating every second
+    └─ Serving at http://localhost:8502
+
+
+⚡ SYSTEM STATUS:
+
+    [✓] Brain Process:     RUNNING (PID: 18835)
+    [✓] Dashboard:         RUNNING (Port: 8502)
+    [✓] Mock AirSim:       ACTIVE
+    [✓] Data Generation:   LIVE
+    [✓] M4 Pro Optimized:  YES
+
+
+🛑 TO STOP:
+
+    Press Ctrl+C in this terminal
+
+
+🔄 TO RESTART:
+
+    source venv/bin/activate
+    python run_m4.py
+
+
+📚 NEED HELP?
+
+    - M4_PRO_SETUP.md     → Full setup guide
+    - QUICK_COMMANDS.md   → Command reference
+    - M4_SUMMARY.md       → What was changed
+
+
+═══════════════════════════════════════════════════════════════
+
+        🎉 ENJOY YOUR DRONE INTELLIGENCE SYSTEM! 🎉
+
+═══════════════════════════════════════════════════════════════
+
