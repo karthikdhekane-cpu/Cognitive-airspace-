@@ -20,6 +20,25 @@ class MockAirSimClient:
         """Mock confirmConnection for compatibility"""
         self.connected = True
         return True
+    def getMultirotorState(self):
+        class Position:
+            x_val = random.uniform(-50, 50)
+            y_val = random.uniform(-50, 50)
+            z_val = -random.uniform(10, 30)
+
+        class Velocity:
+            x_val = random.uniform(-5, 5)
+            y_val = random.uniform(-5, 5)
+            z_val = random.uniform(-1, 1)
+
+        class Kinematics:
+            position = Position()
+            linear_velocity = Velocity()
+
+        class State:
+            kinematics_estimated = Kinematics()
+
+        return State()
     
     def disconnect(self):
         self.connected = False
