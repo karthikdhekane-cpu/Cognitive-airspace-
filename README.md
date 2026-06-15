@@ -13,7 +13,7 @@
 
 **🏆 Top 15 | MakeForBelagavi Makeathon | 300+ Teams | VTU Headquarters**
 
-[Live Demo](https://epidia-cognitive-airspace.vercel.app) · [Pitch Deck](./pitch_deck_ssk_.pdf) · [Report Bug](https://github.com/karthikdhekane-cpu/Cognitive-airspace-/issues)
+[Live Demo](https://epidia-intentra-x.streamlit.app) · [Pitch Deck](./pitch_deck_ssk_.pdf) · [Report Bug](https://github.com/karthikdhekane-cpu/Cognitive-airspace-/issues)
 
 </div>
 
@@ -176,7 +176,7 @@ Flight Data → LSTM Behavioral Engine → Risk Scorer → XAI Dashboard → Ope
 
 - 🏆 **Top 15 out of 300+ teams** — MakeForBelagavi Makeathon, VTU Headquarters
 - 🚀 **Selected for VTU × InUnity Preincubation Program** with assigned industry mentor
-- 🌐 **Live deployment** at [epidia-cognitive-airspace.vercel.app](https://epidia-cognitive-airspace.vercel.app)
+- 🌐 **Live deployment** at [epidia-cognitive-airspace.vercel.app](https://epidia-intentra-x.streamlit.app)
 
 ---
 
@@ -232,7 +232,7 @@ For partnerships, pilots, or investment inquiries:
 
 📧 hulamanisrinish@gmail.com  
 📱 +91 9538826940  
-🌐 [epidia-cognitive-airspace.vercel.app](https://epidia-cognitive-airspace.vercel.app)
+🌐 [epidia-cognitive-airspace.vercel.app](https://epidia-intentra-x.streamlit.app)
 
 ---
 
