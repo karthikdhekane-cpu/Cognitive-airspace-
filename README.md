@@ -7,7 +7,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-LSTM-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://epidia-cognitive-airspace.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-red?style=for-the-badge)](https://epidia-intentra-x.streamlit.app)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![VTU InUnity](https://img.shields.io/badge/VTU%20×%20InUnity-Preincubation-purple?style=for-the-badge)](https://vtu.ac.in)
 
@@ -122,7 +122,7 @@ Flight Data → LSTM Behavioral Engine → Risk Scorer → XAI Dashboard → Ope
 | Risk Modeling | Probabilistic Engine (NumPy, SciPy) |
 | Uncertainty | Entropy-based confidence scoring |
 | Simulation | Microsoft AirSim |
-| Dashboard | React + Vercel |
+| Dashboard | Streamlit + Plotly |
 | Hardware | Pixhawk · DJI · PX4 · ArduPilot |
 
 ---
@@ -176,7 +176,7 @@ Flight Data → LSTM Behavioral Engine → Risk Scorer → XAI Dashboard → Ope
 
 - 🏆 **Top 15 out of 300+ teams** — MakeForBelagavi Makeathon, VTU Headquarters
 - 🚀 **Selected for VTU × InUnity Preincubation Program** with assigned industry mentor
-- 🌐 **Live deployment** at [epidia-cognitive-airspace.vercel.app](https://epidia-intentra-x.streamlit.app)
+- 🌐 Live deployment at [epidia-intentra-x.streamlit.app](https://epidia-intentra-x.streamlit.app)
 
 ---
 
@@ -232,7 +232,7 @@ For partnerships, pilots, or investment inquiries:
 
 📧 hulamanisrinish@gmail.com  
 📱 +91 9538826940  
-🌐 [epidia-cognitive-airspace.vercel.app](https://epidia-intentra-x.streamlit.app)
+🌐 [epidia-intentra-x.streamlit.app](https://epidia-intentra-x.streamlit.app)
 
 ---
 
